@@ -35,7 +35,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                         P2_00  // BLTOUCH
+#define SERVO0_PIN                         P2_00  // BLTOUCH (Marlin defaults the BLTouch control to the first servo)
 
 //
 // TMC StallGuard DIAG pins
@@ -88,7 +88,7 @@
 // Z Probe (when not Z_MIN_PIN)
 //
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                  P0_10  // BLTOUCH
+  #define Z_MIN_PROBE_PIN                  P0_10  // BLTOUCH (z-sensing)
 #endif
 
 //
