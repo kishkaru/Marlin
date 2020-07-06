@@ -75,7 +75,7 @@
 #endif
 #if HOTENDS == 1
   #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_04
+    #define FAN1_PIN                       P2_04  // Use HE1 pin as a fan pin for extruder
   #endif
 #else
   #ifndef HEATER_1_PIN
